@@ -10,13 +10,11 @@ function Panelists({panelists}) {
       <Decor />
       <div className="panelists__container">
         <h2>Panelists</h2>
+
         <div className="person-group +space-children">
-          {panelists.map((p, i) => <Person {...p} key={i} />)}
+          {panelists.map((p, i) => <Person className="panelists__panelist" {...p} key={i} />)}
         </div>
-        <p className="+text-center">
-          JavaScript Air has <a href="http://panelists.javascriptair.com">a panel</a> of
-          some of the finest people the community has to offer
-        </p>
+
       </div>
     </section>
   )
