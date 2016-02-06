@@ -1,6 +1,5 @@
 import React from 'react'
 import SubscribeIconGroupSection from './sections/subscribe-icon-group'
-import Icon from '../../components/icon'
 import Decor from '../../components/decor'
 
 export default Header
